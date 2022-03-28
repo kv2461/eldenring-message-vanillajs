@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Cormorant+Garamond&family=Mulish&family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url("./eldenringbackground.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 10px;
+}
+.message {
+  background: transparent;
+  color: rgba(139, 144, 141);
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 100;
+  position: absolute;
+  left: 560px;
+  top: 1020px;
+  font-size: 80px;
+}
+
+button {
+  height: 2rem;
+  width: 5rem;
+}
+
+@media screen and (max-width: 321px) {
+  .message {
+    position: absolute;
+    left: 75px;
+    top: 125px;
+    font-size: 12px;
+  }
+}
+@media (min-width: 322px) and (max-width: 376px) {
+  .message {
+    position: absolute;
+    left: 85px;
+    top: 145px;
+    font-size: 14px;
+  }
+}
+@media (min-width: 377px) and (max-width: 426px) {
+  .message {
+    position: absolute;
+    left: 90px;
+    top: 165px;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 427px) and (max-width: 769px) {
+  .message {
+    position: absolute;
+    left: 145px;
+    top: 310px;
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 770px) and (max-width: 1024px) {
+  .message {
+    position: absolute;
+    left: 200px;
+    top: 410px;
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1441px) {
+  .message {
+    position: absolute;
+    left: 300px;
+    top: 585px;
+    font-size: 47px;
+  }
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+}
